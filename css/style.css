@@ -1,0 +1,256 @@
+    img {
+        width: 100%;
+        height: 341px;
+        border: black solid 4px;
+    }
+    
+    a {
+        color: gray;
+    }
+    
+    .certification a {
+        text-decoration: none;
+        color: blueviolet;
+    }
+    
+    i {
+        font-size: 34px;
+    }
+    
+    .socail a:hover {
+        color: white;
+    }
+    
+    .bg_black {
+        background: black;
+    }
+    
+    .font-div {
+        width: 25%;
+        padding: 23px;
+    }
+    
+    .font-div:hover {
+        cursor: pointer;
+    }
+    
+    #objective {
+        font-size: 18px;
+    }
+    
+    .sideimg {
+        margin-right: 10px;
+    }
+    
+    .dis {
+        margin-right: 1px;
+    }
+    
+    .dis2 {
+        margin-right: 1px;
+        margin-left: 0px;
+    }
+    
+    .dis3 {
+        margin-right: 1px;
+        margin-left: 0px;
+    }
+    
+    .font-div i {
+        font-size: 44px;
+    }
+    
+    .icondesign {
+        padding: 35px;
+    }
+    
+    .SKILLS {
+        background: radial-gradient(black, transparent);
+    }
+    
+    .SKILLS hr {
+        background-color: black;
+    }
+    
+    .CERTIFICATIONS {
+        background-color: khaki;
+    }
+    
+    .CERTIFICATIONS hr {
+        background-color: black;
+    }
+    
+    .ACHIEVEMENT {
+        background-color: yellowgreen;
+    }
+    
+    .ACHIEVEMENT p {
+        font-size: 1.3rem;
+    }
+    
+    .ACHIEVEMENT hr {
+        background-color: black;
+    }
+    
+    .PROJECTS {
+        background: black;
+    }
+    
+    .PROJECTS h3 {
+        color: mediumturquoise;
+    }
+    
+    .PROJECTS a {
+        text-decoration: none;
+        color: yellow;
+    }
+    
+    .PROJECTS h5 {
+        color: sandybrown
+    }
+    
+    .PROJECTS h6 {
+        color: darkkhaki
+    }
+    
+    .PROJECTS hr {
+        background-color: orange;
+    }
+    
+    .work {
+        background: linear-gradient(45deg, black, transparent);
+    }
+    
+    .date {
+        color: oldlace;
+    }
+    
+    .workbody {
+        background: lightgoldenrodyellow;
+    }
+    
+    .contactCardbody {
+        background: black;
+    }
+    
+    .downloadcv button {
+        padding: 5px;
+        background-color: dimgrey;
+        border: black solid 2px;
+    }
+    
+    .downloadcv a {
+        text-decoration: none;
+        color: black;
+        font-size: large;
+        font-weight: bold;
+    }
+    /* Media query */
+    
+    @media (min-width: 650px) and (max-width: 1280px) {
+        .myname {
+            font-size: 20px;
+        }
+        i {
+            font-size: 20px;
+        }
+        .dis2 h3 {
+            font-size: 18px;
+        }
+        .icondesign {
+            padding: 16px;
+        }
+        .font-div {
+            padding: 38px;
+        }
+        .font-div i {
+            font-size: 44px;
+        }
+    }
+    
+    @media (min-width: 1280px) and (max-width: 1327px) {
+        img {
+            height: 341px;
+        }
+    }
+    
+    @media (min-width: 330px) and (max-width:800px) {
+        img {
+            height: 350px;
+        }
+        .myname {
+            font-size: 20px;
+            padding-bottom: 13px;
+        }
+        i {
+            font-size: 20px;
+        }
+        .icondesign {
+            padding: 16px;
+            margin-top: 10px;
+        }
+        .dis2 h3 {
+            font-size: 18px;
+        }
+        .font-div h5 {
+            font-size: 12px;
+        }
+        .font-div i {
+            margin-bottom: 2px;
+            font-size: 23px;
+        }
+        #resume h2 {
+            font-size: 23px;
+        }
+        #work h2 {
+            font-size: 23px;
+        }
+        .SKILLS h3 {
+            font-size: 20px;
+        }
+        .SKILLS h5 {
+            font-size: 17px;
+        }
+        .CERTIFICATIONS h3 {
+            font-size: 20px;
+        }
+        .workbody h3 {
+            font-size: 20px;
+        }
+        .CERTIFICATIONS h4 {
+            font-size: 16px;
+        }
+        .CERTIFICATIONS h5 {
+            font-size: 13px;
+        }
+        .ACHIEVEMENT h3 {
+            font-size: 20px;
+        }
+        .ACHIEVEMENT p {
+            font-size: 16px;
+        }
+        .PROJECTS h3 {
+            font-size: 20px;
+        }
+        .PROJECTS h5 {
+            font-size: 17px;
+        }
+        .PROJECTS h6 {
+            font-size: 14px;
+        }
+        #contact h2 {
+            font-size: 23px;
+        }
+        #home h2 {
+            font-size: 23px;
+        }
+        #home p {
+            font-size: 13px;
+        }
+        .downloadcv a {
+            font-size: small;
+        }
+        .downloadcv button {
+            padding: 3px;
+        }
+    }
